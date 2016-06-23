@@ -1,0 +1,25 @@
+{
+  "name": "nodeshop",
+  "version": "1.0.0",
+  "description": "这是一个商城的demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/owenhyp333/nodeshop"
+  },
+  "keywords": [
+    "shop",
+    "zhufeng",
+    "node",
+    "express",
+    "bower"
+  ],
+  "author": "lcw",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

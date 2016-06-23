@@ -1,0 +1,14 @@
+1.项目根目录下执行cmd命令行 npm init(输入后会弹出一系列的命令行,根据信息会添加package.json)
+2.创建app项目目录
+3.创建bower头文件(.bowerrc)
+4.定义.bower(修改Bower头文件)
+  1.directory:该属性确定第三方插件位置
+5.执行cmd命令行 bower init(输入后会弹出一系列的命令行,根据信息会添加bower.json)
+6.创建gitignore文件忽略文件(**/lib,.idea,node_modules)  注(**/lib表示任意目录下的lib文件)
+7.通过Bower安装Bootstrap文件(bower install bootstrap --save) 在bowerrc已经指定下载目录
+8.安装angular cmd(bower install angular angular-route --save)通过该方法download angular的核心目录和路由目录  v1.5.7
+9.安装express cmd(npm install express --save)通过该方法创建express后台框架
+9.创建git仓库 cmd(git init)
+10.去git官网创建一个项目文件夹 ,进入文件夹后(git remote add origin https://github.com/owenhyp333/nodeshop.git)拷贝类似该路径在项目根目录执行cmd(该链接)
+11.git add .
+12.本地项目推送到服务器 cmd(git push -u origin master)
